@@ -1596,20 +1596,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help2":
         buttons = [[
             InlineKeyboardButton('ᴄᴄ ᴛᴏᴏʟs', callback_data='cc'),
-            InlineKeyboardButton('ғsᴜʙ', callback_data='fsub'),
             InlineKeyboardButton('ᴛᴏʀʀᴇɴᴛ', callback_data='torrent')
         ], [
             InlineKeyboardButton('ᴠsᴏɴɢ', callback_data='vsong'),
-            InlineKeyboardButton('ᴄʜᴀᴛɢᴘᴛ', callback_data='gpt'),
-            InlineKeyboardButton('ᴇɴᴄʀʏᴘᴛs', callback_data='encrypt')
+            InlineKeyboardButton('ᴄʜᴀᴛɢᴘᴛ', callback_data='gpt')
         ], [
-            InlineKeyboardButton('ʏᴛsᴇᴀʀᴄʜ', callback_data='ytsearch'),
-            InlineKeyboardButton('ғɪɢʟᴇᴛ', callback_data='figletx'),
-            InlineKeyboardButton('ᴡᴀʟʟᴘᴀᴘᴇʀ', callback_data='wall')
-        ], [
-            InlineKeyboardButton('ɢɪɴғᴏ', callback_data='grpinfo'),
-            InlineKeyboardButton('ᴛᴀɢᴀʟʟ', callback_data='tagall'),
-            InlineKeyboardButton('ʙɢʀᴇᴍᴏᴠᴇ', callback_data='bgremove')
+            InlineKeyboardButton('ʏᴛsᴇᴀʀᴄʜ', callback_data='ytsearch')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help1'),
             InlineKeyboardButton('ᴘᴀɢᴇ', callback_data='page'),
@@ -1624,8 +1616,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "special":
         buttons = [[
-            InlineKeyboardButton('ꜱᴘᴇᴄɪᴀʟ 1', callback_data='special_mod1'),
-            InlineKeyboardButton('ꜱᴘᴇᴄɪᴀʟ 2', callback_data='special_mod2'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra_mod')
         ], [
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help2')
@@ -1647,57 +1637,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text=script.SPECIAL_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-
-    elif query.data == "special_mod1":
-        buttons = [[
-            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='special')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="● ◌ ◌"
-        )
-        await query.message.edit_text(
-            text="● ● ◌"
-        )
-        await query.message.edit_text(
-            text="● ● ●"
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-            text=script.SPECIAL_MOD1,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "special_mod2":
-        buttons = [[
-            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='special')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="● ◌ ◌"
-        )
-        await query.message.edit_text(
-            text="● ● ◌"
-        )
-        await query.message.edit_text(
-            text="● ● ●"
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-            text=script.SPECIAL_MOD2,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
