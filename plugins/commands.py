@@ -1,6 +1,6 @@
-#All this codes are created by our developers @erotixe @Codeflix_bots @KUSHALHK
+#All this codes are created by our developers @erotixe @Codeflix_bots
 #we are nothing without your support please support us to bring more features in bot
-#♛┈⛧┈┈•༶❤ 𝗟𝗢𝗩𝗘 𝗬𝗢𝗨 𝗔𝗟𝗟 ❤༶•┈┈⛧┈♛
+
 import os
 import logging
 import random
@@ -119,17 +119,12 @@ async def start(client, message):
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
         btn = [
-                [
-                    InlineKeyboardButton(
-                        "• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=invite_link.invite_link
-                    ),
-                    InlineKeyboardButton(
-                        text="• ᴜᴘᴅᴀᴛᴇs •",
-                        url="https://t.me/team_netflix"
-                    ),
-                ]
-                
+            [
+                InlineKeyboardButton(
+                    "📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌", url=invite_link.invite_link
+                )
             ]
+        ]
 
         if message.command[1] != "subscribe":
             try:
