@@ -6,7 +6,7 @@
 </h2>
 
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=LUCY+AUTO+FILTER+BOT+!;CREATED+BY+MIKEY+DEVELOPER!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=LUCY+AUTO+FILTER+BOT+!;CREATED+BY+CODEFLIX BOTS+DEVELOPER!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
 </p>
 
 ʏᴏᴜ ᴡɪʟʟ ꜰɪɴᴅ ᴛʜɪs ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs <b>[ʟᴜᴄʏ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ](https://telegram.me/LUCY_FILTER_BOT)</b>
