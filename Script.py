@@ -15,13 +15,13 @@ class script(object):
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
 ❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 ❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/codeflix_bots">ᴠᴘs</a>
-❍ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : ᴠ4.8.1 [ᴀᴅᴠᴀɴᴄᴇ ғᴇᴀᴛᴜʀᴇs]
+❍ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : ᴠ4.3.1 [ᴀᴅᴠᴀɴᴄᴇ ғᴇᴀᴛᴜʀᴇs]
 
 ➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ.
 ➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ꜱʏꜱᴛᴇᴍ.
 ➲  ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜꜱᴇʀꜱ ᴡɪᴛʜ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ.
 ➲  ɪ ᴄᴀɴ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ.
-➲  ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ᴍᴏᴅᴜʟᴇs ʟɪᴋᴇ ғɪʟᴇ sᴛᴏʀᴇ, ғᴏɴᴛ, ᴋᴀɴɢ, ᴀɪ ɪᴍᴀɢᴇ ᴀɴᴅ ᴍᴏʀᴇ.
+➲  ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ᴍᴏᴅᴜʟᴇs ʟɪᴋᴇ ғɪʟᴇ sᴛᴏʀᴇ, ғᴏɴᴛ, ᴋᴀɴɢ, ᴀɴᴅ ᴍᴏʀᴇ.
 
 ➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴇ.</b>"""
                   
@@ -641,19 +641,6 @@ NOTE:
 • These commands works on both pm and group.
 • These commands can be used by any group member.</b>"""
 
-    FSUB_TXT = """
-<b>Force members to join channel before writing on chat!
-
-USAGE:
-➢ /fsub - Get the current status.
-➢ /fsub [off] - Disable forcesub in the chat.
-➢ /fsub [channel id/ username] - Setup forcesub channel.
-➢ /fsub [clear] - Unmute all members who are muted by me.
-
-NOTE:
-• Lucy should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member.</b>"""
 
     DONATION_TXT = """<b>donation</b> 
 
@@ -711,36 +698,16 @@ Cᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ Uꜱᴀɢᴇ:
  ❍ /chatgpt  : ʀᴇᴘʟʏ ᴛᴏ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ
  ❍ /lucy : ʀᴇᴘʟʏ ᴛᴏ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ
  ❍ /ask : ᴀɪ ɢᴏᴏɢʟᴇ ᴀɪ 
- ❍ / : chatgpt
+ ❍ /gpt : chatgpt
  ❍ /chat :  ʀᴇᴘʟʏ ᴛᴏ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ
 """
-    ENCRYPT = """
-» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ ᴇɴᴄʀʏᴘᴛ :
 
-ᴄᴏɴᴠᴇʀᴛs
- ❍ /encrypt: ᴇɴᴄʀʏᴘᴛs ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ
- ❍ /decrypt: ᴅᴇᴄʀʏᴘᴛs ᴘʀᴇᴠɪᴏᴜsʟʏ ᴇᴄʀʏᴘᴛᴇᴅ ᴛᴇxᴛ
- ❍ /encode: ᴇɴᴄᴏᴅᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ
- ❍ /decode: ᴅᴇᴄᴏᴅᴇ ᴘʀᴇᴠɪᴏᴜsʟʏ ᴇᴄʀʏᴘᴛᴇᴅ ᴛᴇxᴛ
- ❍ /morseencode: Mᴏʀsᴇ Eɴᴄᴏᴅᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ
- ❍ /morsedecode: ᴅᴇᴄʀʏᴘᴛs ᴘʀᴇᴠɪᴏᴜsʟʏ ᴇᴄʀʏᴘᴛᴇᴅ ᴛᴇxᴛ
- ❍ /password :  ɢɪᴠᴇ ʟᴇɴɢᴛʜ ᴏғ ᴘᴀssᴡᴏʀᴅ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ
- ❍ /uselessfact : Gᴇɴᴇʀᴀᴛᴇ  Rᴀᴍᴅᴏᴍ Usᴇʟᴇss Fᴀᴄᴛ
-"""
     YTSEARCH = """
 The YouTube search module is a feature on the YouTube platform that allows users to search for specific videos, channels, or topics. When you enter a search query in the search bar on YouTube, the search module displays relevant results based on your query. You can filter the results by videos, channels, playlists, or live streams to find the content you are looking for. The search module also provides suggestions as you type, making it easier to discover new content on YouTube. Additionally, the search module may display trending or popular videos related to your search query. Overall, the YouTube search module is a powerful tool that helps users find and explore a wide range of video content on the platform.
 
 ᴄᴏᴍᴍᴀɴᴅ
  ❍ /ytsearch: sᴇᴀʀᴄʜ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ
  ❍ /google : google search
-"""
-    FIGLET_TXT = """
-» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ Fɪɢʟᴇᴛ :
-
-❍ /figlet: ᴍᴀᴋᴇs ғɪɢʟᴇᴛ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ
-Example:
-
-/figlet MIKEY
 """
 
     WALL = """
@@ -752,33 +719,6 @@ Example:
 
 /wall mikey
 """
-    GROUPDATA = """
-ɢᴇᴛ ɢʀᴏᴜᴘ ɪɴғᴏʀᴍᴀᴛɪᴏɴ
-
- ❍ /groupdata 
- ❍ /groupinfo 
-
-note: ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘs
-"""
-    TAGALL = """
-» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ Tᴀɢ Aʟʟ :
-
-Only for admins
-
-❍ /tagall or @all '(reply to message or add another message) To mention all members in your group, without exception.'
-❍ /tagoff : ᴄᴀɴᴄᴇʟ ᴀʟʟ ᴍᴇɴᴛɪᴏɴꜱ
-❍ /hitag : ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴍᴇᴍʙᴇʀs
-❍ /lifetag : ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴍᴇᴍʙᴇʀs
-❍ /histop or /lifestop : ᴄᴀɴᴄᴇʟ ᴀʟʟ ᴍᴇɴᴛɪᴏɴꜱ
-"""
-
-    BG_TXT = """
-ʙᴀᴄᴋɢʀᴏᴜɴᴅ ʀᴇᴍᴏᴠᴇʀ ᴛᴏᴏʟ:
-
-Our background remover tool is a powerful and easy-to-use solution for removing backgrounds from images. With just a few clicks, you can quickly and accurately remove the background from any photo, leaving you with a clean and professional-looking image. Whether you're a photographer looking to enhance your images or a graphic designer working on a project, our background remover tool is the perfect solution for all your editing needs. Say goodbye to tedious manual editing and let our tool do the work for you, saving you time and effort. Try it today and see the difference it can make in your images!
-
-ᴇxᴀᴍᴘʟᴇ : /rmbg ʙʏ ʀᴇᴘʟʏɪɴɢ ᴛᴏ ᴀɴ ɪᴍᴀɢᴇ
-"""
 
     TORRENT = """
 ᴛᴏʀʀᴇɴᴛ sᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅ
@@ -786,43 +726,6 @@ Our background remover tool is a powerful and easy-to-use solution for removing 
 ᴇxᴀᴍᴘʟᴇ : /torrent ᴍᴏɴᴇʏ ʜᴇɪsᴛ
 """
 
-    SPECIAL_MOD1 = """
-» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ Aɪ and ai ɪᴍᴀɢᴇ :
-
- ➻ /imagine : ɢᴇɴᴇʀᴀᴛᴇ Aɪ ɪᴍᴀɢᴇ ғʀᴏᴍ ᴛᴇxᴛ
- ➻ /mahadev : ɢᴇɴᴇʀᴀᴛᴇ Mᴀʜᴀᴅᴇᴠ ɪᴍᴀɢᴇ
- ➻ /upscale : ᴜᴘsᴄᴀʟᴇ ʏᴏᴜʀ ɪᴍᴀɢᴇs
- ➻ /gpt : ᴄʜᴀᴛɢᴘᴛ
- ➻ /draw : ᴄʀᴇᴀᴛᴇ ɪᴍᴀɢᴇs
-
-ɴᴏᴛᴇ:
-• ʟᴜᴄʏ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
-• ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
-• ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.
-
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴏᴅᴇғʟɪx ʙᴏᴛs...
-"""
-
-    USER_DETAILS = "<b>PM FROM:</b>\nName: {} {}\nId: {}\nUname: @{}\nScam: {}\nRestricted: {}\nStatus: {}\nDc Id: {}"
-    PM_TXT_ATT = "<b>Message from:</b> {}\n<b>Name:</b> {}\n\n{}"
-    PM_MED_ATT = "<b>Message from:</b> {} \n<b>Name:</b> {}"
-
-
-
-    SPECIAL_MOD2 = """
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ғᴀᴋᴇ ɪɴғᴏ ᴍᴏᴅᴜʟᴇ:
-
-USAGE:
-➢ /fakegen` : ɢᴇɴᴇʀᴀᴛᴇs ғᴀᴋᴇ Iɴғᴏʀᴍᴀᴛɪᴏɴ
-➢ /picgen` : Generate a Fake pic
-
-ɴᴏᴛᴇ:
-• ʟᴜᴄʏ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
-• ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
-• ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.
-
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴏᴅᴇғʟɪx ʙᴏᴛs...
-"""
 
     EXTRA_MOD = """
 ᴛʜᴇʀᴇ ᴀʀᴇ sᴏᴍᴇ ᴏғ ᴍɪɴᴇ ᴇxᴛʀᴀ ғᴇᴀᴛᴜʀᴇs, ᴇɴɪᴏʏ!
@@ -923,11 +826,8 @@ USAGE:
  ➻ /picgen : ɢᴇɴᴇʀᴀᴛᴇ ᴀ ғᴀᴋᴇ ᴘɪᴄ
  ➻ /eval : ᴛᴏ ᴇᴠᴀʟᴜᴀᴛᴇ sɪᴍᴘʟᴇ ᴄᴏᴅᴇ
  ➻ /ask : ʀᴇᴘʟʏ ᴛo ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ
- ➻ /draw : ᴄʀᴇᴀᴛᴇ ɪᴍᴀɢᴇs
- ➻ /upscale : ᴜᴘsᴄᴀʟᴇ ʏᴏᴜʀ ɪᴍᴀɢᴇs
  ➻ /gpt : ᴄʜᴀᴛɢᴘᴛ
  ➻ /lucy : ᴀɪ ʙʏ ɢᴏᴏɢʟᴇ
- ➻ /reverse : ʀᴇᴠᴇʀsᴇ ɪᴍᴀɢᴇ sᴇᴀʀᴄʜ
  ➻ /imagine : ᴄʀᴇᴀᴛᴇ ᴀɪ ɪᴍᴀɢᴇs
 
 ɴᴏᴛᴇ:
