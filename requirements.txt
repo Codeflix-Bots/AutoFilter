@@ -100,12 +100,9 @@ SafoneAPI
 gtts
 pydub
 sqlalchemy
-pyfiglet
 jikanpy==4.3.2
 html2text==2024.2.26
 secureme==0.0.4
 gpytranslate
 googletrans
-lexica-api==1.5.1
 SpeechRecognition
-apscheduler
