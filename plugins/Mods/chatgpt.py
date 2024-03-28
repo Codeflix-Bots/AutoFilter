@@ -9,7 +9,7 @@ from pyrogram import Client, filters
 # Define API URL for search
 API_URL = "https://sugoi-api.vercel.app/search"
 
-@Client.on_message(filters.command(["chatgpt","chat","openai","lucy","gpt","solve"],  prefixes=["+", ".", "/", "-", "", "$","#","&"]))
+@Client.on_message(filters.command(["chatgpt","lucy","gpt","solve"],  prefixes=["+", ".", "/", "-", "", "$","#","&"]))
 async def chat_gpt(bot, message):
     try:
         start_time = time.time()
