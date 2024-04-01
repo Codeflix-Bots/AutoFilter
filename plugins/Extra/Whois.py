@@ -3,9 +3,9 @@ import time
 from datetime import datetime
 from pyrogram import Client, filters
 from pyrogram.errors import UserNotParticipant
-from plugins.helper_functions.extract_user import extract_user
-from plugins.helper_functions.cust_p_filters import f_onw_fliter
-from plugins.helper_functions.last_online_hlpr import last_online
+from plugins.helper.extract_user import extract_user
+from plugins.helper.cust_p_filters import f_onw_fliter
+from plugins.helper.last_online_hlpr import last_online
 COMMAND_HAND_LER = "/"
 
 
