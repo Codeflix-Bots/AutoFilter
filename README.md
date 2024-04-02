@@ -144,25 +144,25 @@ and more....
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Codeflix-Bots/AutoFilter/tree/Lucy">
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Codeflix-Bots/AutoFilter">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy On Heroku">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
 </h3>
-<p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Codeflix-Bots/AutoFilter&branch=Lucy&name=Lucy">
+<p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Codeflix-Bots/AutoFilter&branch=Lucy-main&name=lucy-main">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy On Koyeb">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 」─
 </h3>
-<p align="center"><a href="https://railway.app/deploy?template=https://github.com/Codeflix-Bots/AutoFilter/tree/Lucy">
+<p align="center"><a href="https://railway.app/deploy?template=https://github.com/Codeflix-Bots/AutoFilter">
      <img height="45px" src="https://railway.app/button.svg">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴇɴᴅᴇʀ 」─
 </h3>
-<p align="center"><a href="https://render.com/deploy?repo=https://github.com/Codeflix-Bots/AutoFilter/tree/Lucy">
+<p align="center"><a href="https://render.com/deploy?repo=https://github.com/Codeflix-Bots/AutoFilter">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a></p>
 <h3 align="center">
@@ -170,7 +170,7 @@ and more....
 </h3>
 <p>
 <pre>
-git clone https://github.com/Codeflix-Bots/AutoFilter/tree/Lucy
+git clone https://github.com/Codeflix-Bots/AutoFilter
 cd AutoFilter
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
