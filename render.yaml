@@ -1,11 +1,11 @@
 services:
   # A Docker web service
   - type: web
-    name: Lucy
+    name: Lucy-main
     env: python
     startCommand: python3 bot.py
     buildCommand: pip3 install -U -r requirements.txt
-    repo: https://github.com/Codeflix-Bots/Lucy.git # optional
+    repo: https://github.com/Codeflix-Bots/AutoFilter.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: Lucy # optional (defaults to master)
