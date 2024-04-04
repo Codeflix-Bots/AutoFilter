@@ -10,6 +10,7 @@
 </p>
 
 Here's a tutorial on how to deploy Lucy Bot - <b>[ᴛᴜᴛᴏʀɪᴀʟ](https://youtu.be/ogrubGanI_M?si=Q57HMr7q_kAdETun)</b>
+
 ʏᴏᴜ ᴡɪʟʟ ꜰɪɴᴅ ᴛʜɪs ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs <b>[ʟᴜᴄʏ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ](https://telegram.me/LUCY_FILTER_BOT)</b>
 
 <details>
