@@ -1,3 +1,5 @@
+#credit @codeflix_bots
+
 import os
 import logging
 import random
@@ -9,11 +11,10 @@ from pyrogram import Client, filters, enums
 from pyrogram.errors import ChatAdminRequired, FloodWait
 from pyrogram.types import *
 from database.ia_filterdb import Media, get_file_details, unpack_new_file_id, get_bad_files
-from database.users_chats_db import db
-from info import CHANNELS, ADMINS, AUTH_CHANNEL, LOG_CHANNEL, PICS, BATCH_FILE_CAPTION, CUSTOM_FILE_CAPTION, PROTECT_CONTENT, CHNL_LNK, GRP_LNK, REQST_CHANNEL, SUPPORT_CHAT_ID, SUPPORT_CHAT, MAX_B_TN, VERIFY, HOWTOVERIFY, SHORTLINK_API, SHORTLINK_URL, TUTORIAL, IS_TUTORIAL, PREMIUM_USER, PICS, SUBSCRIPTION
+from database.users_chats_db import db, delete_all_referal_users, get_referal_users_count, get_referal_all_users, referal_add_user
+from info import *
 from utils import get_settings, get_size, is_req_subscribed, save_group_settings, temp, verify_user, check_token, check_verification, get_token, get_shortlink, get_tutorial
 from database.connections_mdb import active_connection
-# from plugins.pm_filter import ENABLE_SHORTLINK
 import re, asyncio, os, sys
 import json
 import base64
@@ -76,7 +77,7 @@ async def start(client, message):
                     InlineKeyboardButton('• ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='main'),
                     InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                 ],[
-                    InlineKeyboardButton('• ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴍᴏᴠᴇ ᴀᴅs •', callback_data="premium_info")
+                    InlineKeyboardButton('• ɢᴇᴛ ғʀᴇᴇ or ᴘᴀɪᴅ ᴘʀᴇᴍɪᴜᴍ •', callback_data="premium_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -147,7 +148,7 @@ async def start(client, message):
                     InlineKeyboardButton('• ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='main'),
                     InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                 ],[
-                    InlineKeyboardButton('• ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ʀᴇᴍᴏᴠᴇ ᴀᴅs •', callback_data="premium_info")
+                    InlineKeyboardButton('• ɢᴇᴛ ғʀᴇᴇ or ᴘᴀɪᴅ ᴘʀᴇᴍɪᴜᴍ •', callback_data="premium_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -166,7 +167,7 @@ async def start(client, message):
         await asyncio.sleep(0.5)
         await m.edit_text("⚡")
         await asyncio.sleep(0.5)
-        await m.edit_text("<b><i>sᴛᴀʀᴛɪɴɢ ʙᴏᴛ...</i></b>")
+        await m.edit_text("<b><i>ꜱᴛᴀʀᴛɪɴɢ ʙᴏᴛ...</i></b>")
         await asyncio.sleep(0.4)
         await m.delete()        
         m=await message.reply_sticker("CAACAgUAAxkBAAEBt1Jlx6H4hU132BpZrG-DqKF5SveK2QACawUAAqzQYVYtbBdxglzmPR4E") 
@@ -195,6 +196,48 @@ async def start(client, message):
             parse_mode=enums.ParseMode.HTML
         )
         return  
+    data = message.command[1]
+    if data.split("-", 1)[0] == "Lucy":
+        user_id = int(data.split("-", 1)[1])
+        vj = await referal_add_user(user_id, message.from_user.id)
+        if vj:
+            await message.reply(f"<b>You have joined using the referral link of user with ID {user_id}\n\nSend /start again to use the bot</b>")
+            num_referrals = await get_referal_users_count(user_id)
+            await client.send_message(chat_id = user_id, text = "<b>{} start the bot with your referral link\n\nTotal Referals - {}</b>".format(message.from_user.mention, num_referrals))
+            if num_referrals == REFERAL_COUNT:
+                time = REFERAL_PREMEIUM_TIME       
+                seconds = await get_seconds(time)
+                if seconds > 0:
+                    expiry_time = datetime.datetime.now() + datetime.timedelta(seconds=seconds)
+                    user_data = {"id": user_id, "expiry_time": expiry_time} 
+                    await db.update_user(user_data)  # Use the update_user method to update or insert user data
+                    await delete_all_referal_users(user_id)
+                    await client.send_message(chat_id = user_id, text = "<b>You Have Successfully Completed Total Referal.\n\nYou Added In Premium For {}</b>".format(REFERAL_PREMEIUM_TIME))
+                    return 
+        else:
+            buttons = [[
+                    InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="shortlink_info"),
+                    InlineKeyboardButton('• ꜱᴜᴩᴩᴏʀᴛ •', callback_data='group_info')
+                ],[
+                    InlineKeyboardButton('• ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='main'),
+                    InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
+                ],[
+                    InlineKeyboardButton('• ɢᴇᴛ ғʀᴇᴇ or ᴘᴀɪᴅ ᴘʀᴇᴍɪᴜᴍ •', callback_data="premium_info")
+                  ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+            m=await message.reply_sticker("CAACAgUAAxkBAAECQNBmEPRJUuLrUDvpzQwsvs0KE1w5jgACcAQAAkdoOVaYU-q7wXAETB4E") 
+            await asyncio.sleep(1)
+            await m.delete()
+            await message.reply_photo(
+                photo=random.choice(PICS),
+                caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+            return 
+    try:
     data = message.command[1]
     try:
         pre, file_id = data.split('_', 1)
