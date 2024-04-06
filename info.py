@@ -49,6 +49,11 @@ PREFIX = environ.get("PREFIX", "/")
 # for eval function, work only in a specific group
 EVAL_ID = environ.get("EVAL_ID", "-1001566837125")
 
+# Referal Settings
+REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
+REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'sewxiy') # owner username without @
+
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6497757690 5115691197').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001619818259').split()]
