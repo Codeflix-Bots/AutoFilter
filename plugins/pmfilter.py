@@ -1768,6 +1768,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
+    elif query.data == "subscription":
+        buttons = [[
+            InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ •', callback_data='group_info')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.SUBSCRIPTION_TXT.format(REFERAL_PREMEIUM_TIME, temp.U_NAME, query.from_user.id, REFERAL_COUNT),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
     elif query.data == "purchase":
         buttons = [[
             InlineKeyboardButton('💵 ᴘᴀʏ ᴠɪᴀ ᴜᴘɪ ɪᴅ 💵', callback_data='upi_info')
@@ -1845,7 +1862,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('• ᴅɪᴀᴍᴏɴᴅ •', callback_data='diamond'),
             InlineKeyboardButton('• ᴏᴛʜᴇʀ •', callback_data='other')
-        ],[            
+        ],[ 
+            InlineKeyboardButton('• ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ •', callback_data='subscription')
+        ],[               
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
         
