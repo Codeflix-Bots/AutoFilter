@@ -1,4 +1,6 @@
-#credit @codeflix_bots
+# credit @codeflix_bots
+
+# referal code credit - @VJBots
 
 import os
 import logging
@@ -15,6 +17,7 @@ from database.users_chats_db import db, delete_all_referal_users, get_referal_us
 from info import *
 from utils import get_settings, get_size, is_req_subscribed, save_group_settings, temp, verify_user, check_token, check_verification, get_token, get_shortlink, get_tutorial
 from database.connections_mdb import active_connection
+# from plugins.pm_filter import ENABLE_SHORTLINK
 import re, asyncio, os, sys
 import json
 import base64
