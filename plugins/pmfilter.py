@@ -1,5 +1,5 @@
-# Credit @DeletedFromEarth
 # Owneer @Codeflix_Bots
+
 import asyncio
 import re
 import ast
