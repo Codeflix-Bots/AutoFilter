@@ -88,6 +88,11 @@ CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id f
 TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @codflix_bots</b>")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
+#stream link shortner
+STREAM_SITE = (environ.get('STREAM_SITE', 'shareus.io'))
+STREAM_API = (environ.get('STREAM_API', ''))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_to_Download_7x/32'))
+
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/How_to_Download_7x/26') # How to open tutorial link for verification
