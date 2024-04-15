@@ -7,11 +7,11 @@ class script(object):
  
     ABOUT_TXT = """
 <b>✯ ᴍᴀɴᴀɢᴇᴅ ʙʏ : <a href='https://t.me/rb1bots'>#ʀᴇǫᴜᴇsᴛʙᴏx1 ❤</a>
-❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/veldxd">мɪкєʏ</a>
+❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/sarthakkale16ＶＩＢＥＲ">мɪкєʏ</a>
 ✯ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
 ✯ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
-❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/requestbox1official">ᴠᴘs</a>
+❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/requestbox1official">ᴋᴏʏᴇʙ</a>
 ✯ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : ᴠ4.3.1 [ᴀᴅᴠᴀɴᴄᴇ ғᴇᴀᴛᴜʀᴇs]
 
 ➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ.
@@ -28,7 +28,7 @@ class script(object):
 
 ✯ ᴍᴀɴᴀɢᴇᴅ ʙʏ : <a href='https://t.me/rb1bots'>#ʀᴇǫᴜᴇsᴛʙᴏx1 ❤</a>"""
 
-    DONATE = """<b>💵 ɪ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛᴏ ʏᴏᴜ 💸
+    DONATE = """<b>💵 ɪ ʀᴇǫᴜᴇsᴛ ᴛᴏ ʏᴏᴜ 💸
 
 ᴘʟᴇᴀsᴇ ᴅᴏɴᴀᴛᴇ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜰᴏʀ ᴋᴇᴇᴘɪɴɢ ᴛʜᴇ sᴇʀᴠɪᴄᴇ ᴀʟɪᴠᴇ & ᴋᴇᴇᴘ ʙʀɪɴɢɪɴɢ ᴍᴏʀᴇ ɴᴇᴡ ꜰᴇᴀᴛᴜʀᴇs ꜰᴏʀ ʏᴏᴜ.... ɪᴛ ᴡɪʟʟ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴏᴜʀ ʙᴏᴛ ᴏɴ ᴠᴘs ᴀɴᴅ sᴏ ᴛʜᴀᴛ ᴡᴇ ᴄᴀɴ ᴋᴇᴇᴘ ᴜᴘʟᴏᴀᴅɪɴɢ ᴍᴏᴠɪᴇs ᴀɴᴅ ᴡᴇʙsᴇʀɪᴇs ɴᴏɴ sᴛᴏᴘ ɪɴ ʙᴇsᴛ ǫᴜᴀʟɪᴛɪᴇs..</b>
 
@@ -36,7 +36,10 @@ class script(object):
 
 <b>᚜ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs ᚛</b>
 
-➢ <a href='https://telegra.ph/file/818bfe73a1bf83f42039a.png'>ᴘʜᴏɴᴇ ᴘᴀʏ ᴜᴘɪ</a>
+💵 ᴜᴘɪ ɪᴅ - <code>officialrb1@ybl</code>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/5dd159d32553c6d866751.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
+🤌 ᴘᴀʏᴘᴀʟ - <a href='https://www.paypal.com/paypalme/SarthakKale16'>ᴘᴀʏ ᴍᴇ ʜᴇʀᴇ</a>
+𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://telegra.ph/file/648b25dc014d0586db631.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
 
 ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ғᴏʀ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴘᴀʏᴍᴇɴᴛ ɪɴғᴏ
 
