@@ -34,12 +34,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/648b25dc014d0586db631.png https://telegra.ph/file/d84c1d53aa394a0d28fc8.png https://telegra.ph/file/ab06112731418c5dabef9.png https://telegra.ph/file/b0e88419872bd6529f54f.png')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/e630eb748f7955d92c69a.jpg https://graph.org/file/3d6214e88828b2bb4caa0.jpg https://graph.org/file/5f62fb444889d8f393c23.jpg https://graph.org/file/176a6665a01c00cae8486.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/549fd9f3272214acade82.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/ccf3cbc4687263ac63420.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/5bc59cd92785185051ad3.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/549fd9f3272214acade82.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/REQUESTBOX1-TELEGRAM-PLANS-04-15-2'))
-CODE = (environ.get('CODE', 'https://telegra.ph/file/818bfe73a1bf83f42039a.png'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/f6894089b82ff6b36a552.jpg'))
+CODE = (environ.get('CODE', 'https://graph.org/file/f880ed039bd0a8b504369.jpg'))
 
 
 # Command
@@ -111,7 +111,7 @@ BOT_ID = environ.get("BOT_ID", "6873165471")
 S_GROUP = environ.get('S_GROUP', "rb1reborned")
 S_CHANNEL = environ.get('S_CHANNEL', "requestbox1spot")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/requestbox1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/requestbox1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/requestbox1official')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/rb1bots') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ꜱᴀʀᴛʜᴀᴋ #ʀᴇQᴜᴇꜱᴛʙᴏx1')
