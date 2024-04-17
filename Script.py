@@ -877,13 +877,13 @@ Example:
     
 🎖️ <u>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs</u>
 
-● <code>10₹</code> ➛ <u>ʙʀᴏɴᴢᴇ ᴘʟᴀɴ</u> » <code>7 ᴅᴀʏꜱ</code>
-● <code>60₹</code> ➛ <u>ꜱɪʟᴠᴇʀ ᴘʟᴀɴ</u> » <code>30 ᴅᴀʏꜱ</code>
-● <code>180₹</code> ➛ <u>ɢᴏʟᴅ ᴘʟᴀɴ</u> » <code>90 ᴅᴀʏꜱ</code>
-● <code>250₹</code> ➛ <u>ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ</u> » <code>180 ᴅᴀʏꜱ</code>
-● <code>400₹</code> ➛ <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u> » <code>365 ᴅᴀʏꜱ</code>
+● <code>25₹</code> ➛ <u>ʙʀᴏɴᴢᴇ ᴘʟᴀɴ</u> » <code>5 ᴅᴀʏꜱ</code>
+● <code>50₹</code> ➛ <u>ꜱɪʟᴠᴇʀ ᴘʟᴀɴ</u> » <code>30 ᴅᴀʏꜱ</code>
+● <code>290₹</code> ➛ <u>ɢᴏʟᴅ ᴘʟᴀɴ</u> » <code>6 ᴍᴏɴᴛʜꜱ</code>
+● <code>550₹</code> ➛ <u>ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ</u> » <code>12 ᴍᴏɴᴛʜꜱ</code>
+● <code>1699₹</code> ➛ <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u> » <code>ʟɪꜰᴇᴛɪᴍᴇ</code>
 
-💵 ᴜᴘɪ ɪᴅ - <code>dm - @sewxiy</code>
+💵 ᴜᴘɪ ɪᴅ - <code>dm - officialrb1@ybl</code>
 📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://graph.org/file/02e7ecc3e2693b481b914.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
@@ -919,58 +919,72 @@ Example:
 
 👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/sarthakkale16'>ᴏᴡɴᴇʀ</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
 
+۞ ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
+
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
-➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
+➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>
+➛ <i> ɪꜰ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴏʀ ɴᴇᴇᴅ ꜱᴜᴘᴘᴏʀᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ʙᴏᴛ @helpsarthak_bot</i>"""
 
     BRONZE_TXT = """<b>👋 ʜᴇʏ {},
     
 🥉 <u>ʙʀᴏɴᴄᴇ ᴘʟᴀɴ</u>
 ⏰ 5 ᴅᴀʏꜱ
 💸 ᴘʟᴀɴ ᴘʀɪᴄᴇ ➛ 25₹
-𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://telegra.ph/file/648b25dc014d0586db631.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+۞ ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
-➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
+➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>
+➛ <i> ɪꜰ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴏʀ ɴᴇᴇᴅ ꜱᴜᴘᴘᴏʀᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ʙᴏᴛ @helpsarthak_bot</i>"""
 
     SILVER_TXT = """<b>👋 ʜᴇʏ {},
     
 🥈 <u>ꜱɪʟᴠᴇʀ ᴘʟᴀɴ</u>
 ⏰ 30 ᴅᴀʏꜱ 
 💸 ᴘʟᴀɴ ᴘʀɪᴄᴇ ➛ 50₹
-𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://telegra.ph/file/648b25dc014d0586db631.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+۞ ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
-➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
+➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>
+➛ <i> ɪꜰ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴏʀ ɴᴇᴇᴅ ꜱᴜᴘᴘᴏʀᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ʙᴏᴛ @helpsarthak_bot</i>"""
 
     GOLD_TXT = """<b>👋 ʜᴇʏ {},
     
 🥇 <u>ɢᴏʟᴅ ᴘʟᴀɴ</u>
 ⏰  6 ᴍᴏɴᴛʜꜱ 
 💸 ᴘʟᴀɴ ᴘʀɪᴄᴇ ➛ 290₹
-𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://telegra.ph/file/648b25dc014d0586db631.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+۞ ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
-➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
+➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>
+➛ <i> ɪꜰ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴏʀ ɴᴇᴇᴅ ꜱᴜᴘᴘᴏʀᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ʙᴏᴛ @helpsarthak_bot</i>"""
 
     PLATINUM_TXT = """<b>👋 ʜᴇʏ {},
     
 🏅 <u>ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ</u>
 ⏰ 12 ᴍᴏɴᴛʜꜱ
 💸 ᴘʟᴀɴ ᴘʀɪᴄᴇ ➛ 550₹
-𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://telegra.ph/file/648b25dc014d0586db631.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+۞ ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
-➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
+➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>
+➛ <i> ɪꜰ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴏʀ ɴᴇᴇᴅ ꜱᴜᴘᴘᴏʀᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ʙᴏᴛ @helpsarthak_bot</i>"""
     
     DIAMOND_TXT = """<b>👋 ʜᴇʏ {},
 
 💎 <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u>
 ⏰ ʟɪꜰᴇᴛɪᴍᴇ 
 💸 ᴘʟᴀɴ ᴘʀɪᴄᴇ ➛ 1699₹
-𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://telegra.ph/file/648b25dc014d0586db631.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+۞ ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
-➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
+➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>
+➛ <i> ɪꜰ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴏʀ ɴᴇᴇᴅ ꜱᴜᴘᴘᴏʀᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ʙᴏᴛ @helpsarthak_bot</i>"""
 
     OTHER_TXT = """<b>👋 ʜᴇʏ {},
     
@@ -982,17 +996,22 @@ Example:
     
 👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴏᴛʜᴇʀ ᴘʟᴀɴ.
 
+۞ ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
+
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
-➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
+➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>
+➛ <i> ɪꜰ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴏʀ ɴᴇᴇᴅ ꜱᴜᴘᴘᴏʀᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ʙᴏᴛ @helpsarthak_bot</i>"""
 
     UPI_TXT = """<b>👋 ʜᴇʏ {},
     
 ⚜️ ᴘᴀʏ ᴀᴍᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ !
 
 💵 ᴜᴘɪ ɪᴅ - <code>officialrb1@ybl</code>
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/5dd159d32553c6d866751.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 🤌 ᴘᴀʏᴘᴀʟ - <a href='https://www.paypal.com/paypalme/SarthakKale16'>ᴘᴀʏ ᴍᴇ ʜᴇʀᴇ</a>
-𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://telegra.ph/file/648b25dc014d0586db631.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+۞ ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴛᴏ @helpsarthak_bot ᴏʀ @Sarthakkale16.</b>"""
 
@@ -1000,8 +1019,11 @@ Example:
     
 ⚜️ ᴘᴀʏ ᴀᴍᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ !
 
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/5dd159d32553c6d866751.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
-𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://telegra.ph/file/648b25dc014d0586db631.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+💵 ᴜᴘɪ ɪᴅ - <code>officialrb1@ybl</code>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
+🤌 ᴘᴀʏᴘᴀʟ - <a href='https://www.paypal.com/paypalme/SarthakKale16'>ᴘᴀʏ ᴍᴇ ʜᴇʀᴇ</a>
+۞ ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴛᴏ @helpsarthak_bot ᴏʀ @Sarthakkale16.</b>"""
 
@@ -1016,9 +1038,10 @@ Example:
 ● <code>1699₹</code> ➛ <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u> » <code>ʟɪꜰᴇᴛɪᴍᴇ</code>
 
 💵 ᴜᴘɪ ɪᴅ - <code>officialrb1@ybl</code>
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/5dd159d32553c6d866751.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 🤌 ᴘᴀʏᴘᴀʟ - <a href='https://www.paypal.com/paypalme/SarthakKale16'>ᴘᴀʏ ᴍᴇ ʜᴇʀᴇ</a>
-𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://telegra.ph/file/648b25dc014d0586db631.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+۞ ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
 
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
