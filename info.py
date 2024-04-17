@@ -89,8 +89,8 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫ
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', ''))
-STREAM_API = (environ.get('STREAM_API', ''))
+STREAM_SITE = (environ.get('STREAM_SITE', 'hmdiskshortner.link'))
+STREAM_API = (environ.get('STREAM_API', 'fc0d365e896917109abf4640d13061584a1c7a70'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/rb1bots'))
 
 # Verify
@@ -117,8 +117,8 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ꜱᴀʀᴛʜᴀᴋ #ʀᴇQᴜᴇꜱᴛʙᴏx1')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002016697428')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/requestbox1backup') #Support group link ( make sure bot is admin )
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
