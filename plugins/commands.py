@@ -187,7 +187,7 @@ async def start(client, message):
         
     if len(message.command) == 2 and message.command[1] in ["premium"]:
         buttons = [[
-                    InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(6497757690))
+                    InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(1232136108))
                   ],[
                     InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
                   ]]
@@ -1285,7 +1285,7 @@ async def ginfo(bot, message):
 async def donate_command(client, message):
     buttons = [
         [
-            InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ • ", url="https://telegra.ph/file/818bfe73a1bf83f42039a.png"),
+            InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ • ", url="https://graph.org/file/f880ed039bd0a8b504369.jpg"),
             InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/helpsarthak_bot")
         ]
     ]
@@ -1296,7 +1296,7 @@ async def donate_command(client, message):
 async def help_command(client, message):
     buttons = [
         [
-            InlineKeyboardButton("• ᴏᴘᴇɴ ɪɴ ᴘʀɪᴠᴀᴛᴇ •", url="https://t.me/premium_rb1bot?start=help"),
+            InlineKeyboardButton("• ᴏᴘᴇɴ ɪɴ ᴘʀɪᴠᴀᴛᴇ •", url="https://t.me/requestbox1_bot?start=help"),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
