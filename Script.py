@@ -344,9 +344,9 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 
     CAPTION = """ 
 <b>@rb1official </b> <code>{file_name}</code><b>
-╭───── • ◆ • ────╮
+╭────── • ◆ • ──────╮
 ✪ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ:  <a href="https://t.me/rb1official">ʜᴇʀᴇ</a> ✪
-╰───── • ◆ • ────╯
+╰────── • ◆ • ──────╯
 =========== • ✠ • ===========
 ▫️ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/requestbox1officialofficial">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 ▫️ sᴜᴘᴘᴏʀᴛ : <a href="https://t.me/helpsarthak_bot">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
