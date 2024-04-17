@@ -37,9 +37,10 @@ class script(object):
 <b>᚜ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs ᚛</b>
 
 💵 ᴜᴘɪ ɪᴅ - <code>officialrb1@ybl</code>
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/5dd159d32553c6d866751.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 🤌 ᴘᴀʏᴘᴀʟ - <a href='https://www.paypal.com/paypalme/SarthakKale16'>ᴘᴀʏ ᴍᴇ ʜᴇʀᴇ</a>
-𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://telegra.ph/file/648b25dc014d0586db631.png'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+𝕩 ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ - <a href='https://graph.org/file/f6894089b82ff6b36a552.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ</a>
+☆ ʙᴜʏ ᴘʟᴀɴ - <a href='https://graph.org/file/9ba0cf46348d4c73f1247.png'>Qʀ ᴄᴏᴅᴇ ʜᴇʀᴇ</a>
 
 ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ғᴏʀ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴘᴀʏᴍᴇɴᴛ ɪɴғᴏ
 
