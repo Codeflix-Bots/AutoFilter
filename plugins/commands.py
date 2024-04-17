@@ -302,7 +302,7 @@ async def start(client, message):
                                 InlineKeyboardButton('☆ ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ ᴏʀ ꜱᴛʀᴇᴀᴍ ᴏɴʟɪɴᴇ ☆', callback_data=f'generate_stream_link:{file_id}'),
                             ],
                             [
-                                InlineKeyboardButton('☆ ᴜᴘᴅᴀᴛᴇꜱ ☆', url=f'https://t.me/codeflix_bots') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('☆ ᴜᴘᴅᴀᴛᴇꜱ ☆', url=f'https://t.me/rb1bots') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
