@@ -38,7 +38,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://telegra.ph/file/818bfe73a1bf83f42039a.png'),
+                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://graph.org/file/f6894089b82ff6b36a552.jpg'),
                     InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https://telegram.me/rb1bots')
                  ]]
         reply_markup=InlineKeyboardMarkup(buttons)
@@ -59,7 +59,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ', url='https://graph.org/REQUESTBOX1-TELEGRAM-PLANS-04-15-2'),
+                                                                           InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ', url='https://graph.org/file/f6894089b82ff6b36a552.jpg'),
                                                                            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https://telegram.me/requestbox1official')
                                                                         ]]
                                                  ),
@@ -81,7 +81,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://telegram.me/rb1bots')
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://telegram.me/helpsarthak_bot')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
