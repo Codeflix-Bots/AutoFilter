@@ -93,16 +93,16 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 👋"
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
-        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ʟᴜᴄʏ</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
+        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ʀᴇQᴜᴇꜱᴛʙᴏx1</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
-        await m.edit_text("👀")
+        await m.edit_text("🤩")
         await asyncio.sleep(0.5)
-        await m.edit_text("⚡")
+        await m.edit_text("😈")
         await asyncio.sleep(0.5)
-        await m.edit_text("<b><i>sᴛᴀʀᴛɪɴɢ ʙᴏᴛ...</i></b>")
+        await m.edit_text("<b><i>ᴘᴏᴡᴇʀᴇᴅ ʙʏ #ʀᴇQᴜᴇꜱᴛʙᴏx1...</i></b>")
         await asyncio.sleep(0.4)
         await m.delete()        
-        m=await message.reply_sticker("CAACAgUAAxkBAAEBt1Jlx6H4hU132BpZrG-DqKF5SveK2QACawUAAqzQYVYtbBdxglzmPR4E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAANCZh_bHUtmwoy2Q4pcJYqGyYD0uoIAApYDAALmW2hXq6HNrY1bPaceBA") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -135,7 +135,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("ᴛʀʏ ᴀɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://graph.org/file/9649c1dcbae09f2e7700e.jpg",
+            photo="https://graph.org/file/f6894089b82ff6b36a552.jpg",
             caption="<b>ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʀʏ ᴀɢᴀɪɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
@@ -164,16 +164,16 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 👋"
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
-        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ʟᴜᴄʏ</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
+        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ʀᴇQᴜᴇꜱᴛʙᴏx1</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
-        await m.edit_text("👀")
+        await m.edit_text("💕")
         await asyncio.sleep(0.5)
-        await m.edit_text("⚡")
+        await m.edit_text("🔥")
         await asyncio.sleep(0.5)
-        await m.edit_text("<b><i>ꜱᴛᴀʀᴛɪɴɢ ʙᴏᴛ...</i></b>")
+        await m.edit_text("<b><i>ᴘᴏᴡᴇʀᴇᴅ ʙʏ #ʀᴇQᴜᴇꜱᴛʙᴏx1...</i></b>")
         await asyncio.sleep(0.4)
         await m.delete()        
-        m=await message.reply_sticker("CAACAgUAAxkBAAEBt1Jlx6H4hU132BpZrG-DqKF5SveK2QACawUAAqzQYVYtbBdxglzmPR4E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAANCZh_bHUtmwoy2Q4pcJYqGyYD0uoIAApYDAALmW2hXq6HNrY1bPaceBA") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -230,7 +230,7 @@ async def start(client, message):
                     InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="premium_info")
                   ]]
             reply_markup = InlineKeyboardMarkup(buttons)
-            m=await message.reply_sticker("CAACAgUAAxkBAAECQNBmEPRJUuLrUDvpzQwsvs0KE1w5jgACcAQAAkdoOVaYU-q7wXAETB4E") 
+            m=await message.reply_sticker("CAACAgUAAxkBAANCZh_bHUtmwoy2Q4pcJYqGyYD0uoIAApYDAALmW2hXq6HNrY1bPaceBA") 
             await asyncio.sleep(1)
             await m.delete()
             await message.reply_photo(
