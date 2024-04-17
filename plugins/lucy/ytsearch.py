@@ -50,7 +50,7 @@ async def ytsearch(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/codeflix_bots",
+                        "• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/requestbox1official",
                     ),
                 ]
             ]
