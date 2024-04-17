@@ -89,8 +89,8 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫ
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'mdiskshortner.link'))
-STREAM_API = (environ.get('STREAM_API', 'fc0d365e896917109abf4640d13061584a1c7a70'))
+STREAM_SITE = (environ.get('STREAM_SITE', ''))
+STREAM_API = (environ.get('STREAM_API', ''))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/rb1bots'))
 
 # Verify
