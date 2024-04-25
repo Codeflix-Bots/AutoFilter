@@ -2901,6 +2901,69 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+
+    #Adding This feature to the bot to get the controls over the groups  
+    elif query.data.startswith("verify_lazy_group"):
+        _, chatTitle, chatID = query.data.split(":")
+        print(f"Debug: query.data={query.data}, chatID={chatID}, chatTitle={chatTitle}")
+        try:
+            await client.send_message(chatID, text=f"ʜᴇʟʟᴏ ɢᴜʏs.. \nғʀᴏᴍ ɴᴏᴡ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴄᴏɴᴛᴇɴᴛs 𝟸𝟺x𝟽")
+            await db.verify_lazy_chat(int(chatID))
+            temp.LAZY_VERIFIED_CHATS.append(int(chatID))
+            btn = [
+                [
+                InlineKeyboardButton(text=f"• ʙᴀɴ ᴄʜᴀᴛ •", callback_data=f"bangrpchat:{chatTitle}:{chatID}")
+            ],[
+                InlineKeyboardButton(text=f"⌯ ᴄʟᴏsᴇ ⌯", callback_data="close_data")
+            ]
+            ]
+            reply_markup = InlineKeyboardMarkup(btn)
+            ms = await query.edit_message_text(f"**⌯ ᴄʜᴀᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ᴠᴇʀɪғɪᴇᴅ **\n\n**ᴄʜᴀᴛ ɪᴅ**: {chatID}\n**ᴄʜᴀᴛ ᴛɪᴛʟᴇ**:{chatTitle}", reply_markup=reply_markup)
+        except Exception as e:
+            ms.edit(f"Got a Lazy error:\n{e}" )
+            logger.error(f"ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴛʜɪs ᴇʀʀᴏʀ @sewxiy ʙʀᴏ : {e}")
+    
+    elif query.data.startswith("bangrpchat"):
+        _, chatTitle, chatID = query.data.split(":")
+        print(f"Debug: query.data={query.data}, chatID={chatID}, chatTitle={chatTitle}")
+        try:
+            await client.send_message(chatID, text=f"ᴏᴏᴘs! sᴏʀʀʏ, ʟᴇᴛ's ᴛᴀᴋᴇ ᴀ ʙʀᴇᴀᴋ\nᴛʜɪs ɪs ᴍʏ ʟᴀsᴛ ᴀɴᴅ ɢᴏᴏᴅ ʙʏᴇ ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜ ᴀʟʟ. \n\nᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴀᴅᴍɪɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ")
+            await db.disable_chat(int(chatID))
+            temp.BANNED_CHATS.append(int(chatID))
+            btn = [
+                [
+                InlineKeyboardButton(text=f"• ᴇɴᴀʙʟᴇ ᴄʜᴀᴛ •", callback_data=f"enablelazychat:{chatTitle}:{chatID}")
+            ],[
+                InlineKeyboardButton(text=f"⌯ ᴄʟᴏsᴇ ⌯", callback_data="close_data")
+            ]
+            ]
+            reply_markup = InlineKeyboardMarkup(btn)
+            ms = await query.edit_message_text(f"**⌯ ᴄʜᴀᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅɪsᴀʙʟᴇᴅ** ✅\n\n**ᴄʜᴀᴛ ɪᴅ**: {chatID}\n\n**ᴄʜᴀᴛ ᴛɪᴛʟᴇ**:{chatTitle}", reply_markup=reply_markup)
+        except Exception as e:
+            ms.edit(f"Got a Lazy error:\n{e}" )
+            logger.error(f"ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴛʜɪs ᴇʀʀᴏʀ @sewxiy ʙʀᴏ : {e}")
+    
+    elif query.data.startswith("enablelazychat"):
+        _, chatTitle , chatID = query.data.split(":")
+        print(f"Debug: query.data={query.data}, chatID={chatID}, chatTitle={chatTitle}")
+        try:
+            sts = await db.get_chat(int(chatID))
+            if not sts:
+                return await query.answer("ᴄʜᴀᴛ ɴᴏᴛ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅʙ!", show_alert=True)
+            if not sts.get('is_disabled'):
+                return await query.answer('ᴛʜɪs ᴄʜᴀᴛ ɪs ɴᴏᴛ ʏᴇᴛ ᴅɪsᴀʙʟᴇᴅ.', show_alert=True)
+            await db.re_enable_chat(int(chatID))
+            temp.BANNED_CHATS.remove(int(chatID))
+            btn = [[
+                    InlineKeyboardButton(text=f"• ʙᴀɴ ᴀɢᴀɪɴ •", callback_data=f"bangrpchat:{chatTitle}:{chatID}")
+                ],[
+                    InlineKeyboardButton(text=f"⌯ ᴄʟᴏsᴇ ⌯", callback_data="close_data")
+            ]]
+            reply_markup = InlineKeyboardMarkup(btn)
+            ms = await query.edit_message_text(f"**⌯ ᴄʜᴀᴛ sᴜᴄᴄᴇssғᴜʟʟʏ eɴᴀʙʟᴇᴅ** \n\n**ᴄʜᴀᴛ ɪᴅ**: {chatID}\n\n**ᴄʜᴀᴛ ᴛɪᴛʟᴇ**:{chatTitle}", reply_markup=reply_markup)
+        except Exception as e:
+            ms.edit(f"Got a Lazy error:\n{e}" )
+            logger.error(f"ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴛʜɪs ᴇʀʀᴏʀ @sewxiy ʙʀᴏ  : {e}")
     
     elif query.data == "stats":
         buttons = [[
