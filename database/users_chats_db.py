@@ -69,7 +69,7 @@ class Database:
             title = title,
             chat_status=dict(
                 is_disabled=False,
-                is_lazy_verified=False
+                is_lazy_verified=False,
                 reason="",
             ),
         )
