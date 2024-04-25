@@ -151,6 +151,25 @@ async def give_filter(client, message):
         else:
             await auto_filter(client, message)
 
+ @Client.on_message(filters.group & filters.text & filters.incoming)
+ async def give_filter(client, message):
+     try:
+         chatIDx = message.chat.id
+         lazy_chatIDx = await db.get_chat(int(chatIDx))
+         if lazy_chatIDx['is_lazy_verified']:
+             k = await manual_filters(client, message)
+     except Exception as e:
+         logger.error(f"Chat not verifeid : {e}") 
+
+     if k == False:
+         try:
+             chatID = message.chat.id
+             lazy_chatID = await db.get_chat(int(chatID))
+             if lazy_chatID['is_lazy_verified']:
+                 await auto_filter(client, message)
+         except Exception as e:
+             logger.error(f"Chat Not verified : {e}") 
+
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
     if message.chat.id != SUPPORT_CHAT_ID:
