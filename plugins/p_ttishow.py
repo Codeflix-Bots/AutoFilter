@@ -45,6 +45,22 @@ async def save_group(bot, message):
         await message.reply_text(
             text=f"<b>›› ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {message.chat.title} \n›› ᴅᴏɴ'ᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ.\n›› ɪꜰ ᴀɴʏ ᴅᴏᴜʙᴛꜱ ᴀʙᴏᴜᴛ ᴜꜱɪɴɢ ᴍᴇ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ",
             reply_markup=reply_markup)
+
+        # GROUP ACTIONS IN CONTROL => Coded By YT@LazyDeveloperr with love @Codeflix_bots
+        chatID = message.chat.id
+        chatTitle = message.chat.title
+        lz_buttons = [
+            [
+                InlineKeyboardButton('• ᴍᴀʀᴋ ᴠᴇʀɪғɪᴇᴅ •', callback_data=f"verify_lazy_group:{chatTitle}:{chatID}")
+            ],[
+                InlineKeyboardButton('• ʙᴀɴ ᴄʜᴀᴛ •', callback_data=f"bangrpchat:{chatTitle}:{chatID}")
+            ],[
+                InlineKeyboardButton('⌯ ᴄʟᴏsᴇ ⌯', callback_data="close_data")
+            ]]
+        lazy_markup=InlineKeyboardMarkup(lz_buttons)
+        await bot.send_message(LOG_CHANNEL,
+                            text=f"ʜᴇʏ ʙᴀʙᴇ.\n ɪ ᴀᴍ ᴀᴅᴅᴇᴅ ғᴏʀᴄᴇғᴜʟʟʏ ᴛᴏ ᴛʜɪs ɢʀᴏᴜᴘ ɴᴀᴍᴇ **{chatTitle}** ᴘʟᴇᴀsᴇ ᴛᴇʟʟ ᴍᴇ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛᴏ ʀᴇsᴛʀɪᴄᴛ ᴛʜɪs ɢʀᴏᴜᴘ..",
+                            reply_markup=lazy_markup)
     else:
         settings = await get_settings(message.chat.id)
         if settings["welcome"]:
