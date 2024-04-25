@@ -69,6 +69,7 @@ class Database:
             title = title,
             chat_status=dict(
                 is_disabled=False,
+                is_lazy_verified=False
                 reason="",
             ),
         )
@@ -120,12 +121,18 @@ class Database:
     async def get_banned(self):
         users = self.col.find({'ban_status.is_banned': True})
         chats = self.grp.find({'chat_status.is_disabled': True})
+        is_verified = self.grp.find({'chat_status.is_lazy_verified': True})
         b_chats = [chat['id'] async for chat in chats]
         b_users = [user['id'] async for user in users]
-        return b_users, b_chats
+        lz_verified = [chat['id'] async for chat in is_verified]
+        return b_users, b_chats, lz_verified
+
+    async def verify_lazy_chat(self, chat):
+        chat_status=dict(
+            is_lazy_verified=True,
+            )
+        await self.grp.update_one({'id': int(chat)}, {'$set': {'chat_status': chat_status}})
     
-
-
     async def add_chat(self, chat, title):
         chat = self.new_group(chat, title)
         await self.grp.insert_one(chat)
