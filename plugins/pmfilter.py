@@ -1571,7 +1571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("☆ ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ ☆", url=lazy_download),
                     InlineKeyboardButton("☆ ꜱᴛʀᴇᴀᴍ ᴏɴʟɪɴᴇ ☆", url=lazy_stream)
                 ],[
-                    InlineKeyboardButton('☆ ᴜᴘᴅᴀᴛᴇꜱ ☆', url='https://t.me/codeflix_bots')
+                    InlineKeyboardButton('☆ ᴜᴘᴅᴀᴛᴇꜱ ☆', url='https://t.me/rb1bots')
                 ]]
             else:
                 await query.answer("🚸 ɴᴏᴛᴇ :\nᴀᴅ-ꜰʀᴇᴇ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ.\n\nᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴄʜᴇᴄᴋ ᴘʟᴀɴꜱ.", show_alert=True)
