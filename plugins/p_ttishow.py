@@ -45,7 +45,6 @@ async def save_group(bot, message):
         await message.reply_text(
             text=f"<b>›› ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {message.chat.title} \n›› ᴅᴏɴ'ᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ.\n›› ɪꜰ ᴀɴʏ ᴅᴏᴜʙᴛꜱ ᴀʙᴏᴜᴛ ᴜꜱɪɴɢ ᴍᴇ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ",
             reply_markup=reply_markup)
-
     else:
         settings = await get_settings(message.chat.id)
         if settings["welcome"]:
