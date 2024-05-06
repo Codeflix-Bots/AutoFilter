@@ -83,12 +83,17 @@ async def clearcache(bot, message):
     await txt.edit("Cleared "+ str(i) + "File") 
     await txt.delete()
     
-@Client.on_message(filters.command(["stickerid"]))
-async def stickerid(bot, message):   
-    if message.reply_to_message.sticker:
-       await message.reply(f"**Sticker ID is**  \n `{message.reply_to_message.sticker.file_id}` \n \n ** Unique ID is ** \n\n`{message.reply_to_message.sticker.file_unique_id}`", quote=True)
-    else: 
-       await message.reply("Oops !! Not a sticker file")
+@Client.on_message(filters.command("stickerid") & (filters.private | filters.group))
+async def stickers(bot, message):
+    if message.reply_to_message and message.reply_to_message.sticker:
+        await message.reply(
+            f"<b>Your Requested Sticker's ID is:</b> <code>{message.reply_to_message.sticker.file_id}</code>",
+            quote=True
+        )
+    elif message.reply_to_message and not message.reply_to_message.sticker:
+        await message.reply("Oops! The replied message is not a sticker.")
+    else:
+        await message.reply("Are you challenging me!\n reply to a sticker instead.")
 
 
 @Client.on_message(filters.private & filters.group & filters.command(["findsticker"]))
