@@ -2131,6 +2131,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 text=(script.STICKER_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
+            ) 
+    elif query.data == "font":
+            buttons = [[
+                    InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help"),
+                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='group_info')
+                  ]]
+            await client.edit_message_media(
+                query.message.chat.id, 
+                query.message.id, 
+                InputMediaPhoto(random.choice(PICS))
+            )
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text=(script.FONT_TXT),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
             )  
     elif query.data == "manuelfilter":
         buttons = [[
