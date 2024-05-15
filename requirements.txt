@@ -115,7 +115,7 @@ html2text==2024.2.26
 secureme==0.0.4
 gpytranslate
 googletrans
-lexica-api
 SpeechRecognition
 gitpython
-  
+lexica-api
+MukeshAPI
