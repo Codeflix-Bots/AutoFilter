@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/fb0332f04c8f3a56a89d4.jpg" alt="AutoFilter Lucy Logo">
+  <img src="https://graph.org/file/e877291963214a0834111.jpg" alt="AutoFilter Lucy Logo">
 </p>
 <h2 align="center">
   「 ʟᴜᴄʏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ 」
