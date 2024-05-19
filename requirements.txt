@@ -119,3 +119,6 @@ SpeechRecognition
 gitpython
 lexica-api
 MukeshAPI
+flask
+gunicorn
+aiohttp
