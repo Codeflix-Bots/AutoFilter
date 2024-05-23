@@ -11,7 +11,7 @@
 
 ɴᴏᴡ ᴛʜɪs ʀᴇᴘᴏ ʜᴀs ʙᴇᴇɴ ᴄᴏᴍᴘʟᴇᴛᴇʟʏ ᴘʀɪᴠᴀᴛᴇ. ..Aɴᴅ ᴛʜɪs ʀᴇᴘᴏ ɪs ᴀ ᴘᴀɪᴅ ʀᴇᴘᴏ. Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʙᴜʏ Aᴜᴛᴏ Fɪʟᴛᴇʀ Aᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴄᴏᴅᴇs ᴀᴛ ᴄʜᴇᴀᴘ ᴘʀɪᴄᴇ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴏᴜʀ ᴀᴅᴍɪɴs.
 
-ᴅᴇᴍᴏ ʙᴏᴛ : [ᴅᴇᴍᴏ](https://)
+<b>ᴅᴇᴍᴏ ʙᴏᴛ : [ᴅᴇᴍᴏ](https://telegram.me/Lucy_Filter_bot)</b>
 # ᴄᴏɴᴛᴀᴄᴛ ʜᴇʀᴇ ⌯ <a href="https://t.me/sewxiy"><img title=" sᴜʙᴀʀᴜ " src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a> <a href="https://t.me/Not_Xenov"><img title=" xᴇɴᴏᴠ " src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 
 
