@@ -15,9 +15,9 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '23890262'))
-API_HASH = environ.get('API_HASH', 'da7e86cf57b0e6220b8a9e0aed228a68')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6427124758:AAGaI6nmfVqTO9SXx8G-lcvi11tlOts9MUE')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6427124758:-lcvi11tlOts9MUE')
 
 PICS = (environ.get('PICS', 'https://graph.org/file/2518d4eb8c88f8f669f4c.jpg https://graph.org/file/d6d9d9b8d2dc779c49572.jpg https://graph.org/file/4b04eaad1e75e13e6dc08.jpg https://graph.org/file/05066f124a4ac500f8d91.jpg https://graph.org/file/2c64ed483c8fcf2bab7dd.jpg')).split() #SAMPLE PIC
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/208ae1ffacc082167dbc4.jpg')
@@ -29,7 +29,7 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/cosmic_freak")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001868871195'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movie7xchat')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001619818259').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://publicdb:publicdb@cluster0.aisg0rh.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb")
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
@@ -54,12 +54,12 @@ FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001868871195'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_Download_7x/35")
-SHORTENER_API = environ.get("SHORTENER_API", "12acd92137fc0825775940b8ad5375a5ce63d71f")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'publicearn.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "12acd92137fc0825775940b8ad5375a5ce63d71f")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'publicearn.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "12acd92137fc0825775940b8ad5375a5ce63d71f")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'publicearn.com')
+SHORTENER_API = environ.get("SHORTENER_API", "")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", '')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 
