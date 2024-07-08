@@ -10,9 +10,12 @@ from Script import script
 from datetime import date, datetime
 import datetime
 import pytz
+import pyrogram.utils
 from aiohttp import web
 from plugins import web_server, check_expired_premium
 import time
+
+pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
 
 class Bot(Client):
     def __init__(self):
