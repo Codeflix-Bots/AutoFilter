@@ -43,7 +43,7 @@ CODE = (environ.get('CODE', 'https://graph.org/file/02e7ecc3e2693b481b914.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'shareus.io'))
-STREAM_API = (environ.get('STREAM_API', '1Jh0re6olVUHnr3eEyFG7NZX7RF3'))
+STREAM_API = (environ.get('STREAM_API', ''))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_to_Download_7x/32'))
 
 # Command
