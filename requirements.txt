@@ -1,0 +1,113 @@
+ pyrogram>=2.0.30 
+ tgcrypto 
+ pymongo[srv]==3.12.3 
+ motor==2.5.1 
+ marshmallow==3.14.1 
+ umongo==3.0.1 
+ requests 
+ bs4 
+ git+https://github.com/Joelkb/cinemagoer 
+ shortzy 
+ datetime 
+ pytz 
+ aiohttp
+
+#---master---# 
+ #Telethroid==0.0.10 
+ PyLeaves==1.0.2 
+  
+  
+ #---others----# 
+ opencv-python-headless==4.7.0.68 
+ python-dotenv==0.21.1 
+ speedtest==0.0.1 
+ humanize==4.6.0 
+ Pillow==9.4.0 
+ psutil==5.9.4 
+ NumPy 
+ wheel 
+ ujson 
+ wget 
+ aiofiles
+ dnspython==2.3.0
+python-decouple
+ffmpeg-python>=0.2.0
+jinja2
+apscheduler
+pyshorteners
+colorama
+search_engine_parser
+ffmpeg
+youtube-search-python==1.4.6
+youtube-dl
+pyshorteners
+countryinfo
+python-math
+psutil==5.9.4
+speedtest-cli
+python-dotenv
+python-telegram-bot==12.8
+doodstream
+unshortenit
+python-decouple
+ytthumb
+YoutubeTags
+beautifulsoup4
+motor
+python-docx
+speedtest
+yt-dlp
+python-dateutil
+google-generativeai
+datetime>=4.4
+psutil==5.9.4
+asyncio
+chardet
+urllib3
+pycryptodomex
+wheel
+six
+googlesearch-python
+spotipy
+scdl
+tqdm
+ujson
+wget
+spotipy
+pafy
+ffmpeg
+asyncio
+pytube
+youtube-search
+youtube-search-python
+spotdl
+Pillow
+wget
+discord
+moviepy==1.0.3
+shazamio
+telegraph
+PyPDF2
+pypdf
+pyrogram>=2.0.106
+Faker
+telethon
+sqlalchemy
+SafoneAPI
+gtts
+pydub
+sqlalchemy
+pyfiglet
+jikanpy==4.3.2
+html2text==2024.2.26
+secureme==0.0.4
+gpytranslate
+googletrans
+lexica-api
+SpeechRecognition
+gitpython
+pyromod==1.5
+uvloop
+lexica-api
+MukeshAPI
+httpx
