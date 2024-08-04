@@ -101,18 +101,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄʏ ʀᴏʙ�
 - [x] LOG_CHANNEL - add a private channel id
 - [x] CHANNELS - add your database channel id ,if u will share your file here the bot will add the file in database autometiccaly
 - [x] DATABASE_URI - if you dont know how to get it, read this documentation from scratch
-- [x] LOG_API_CHANNEL - add a private channel id
-- [x] DELETE_CHANNELS - Add a private channel id, This Channel is used to delete files from database, If you share your file here the bot will Delete the file from database autometiccaly
-- [x] URL - Your File to Link bot's Url
-- [x] LOG_VR_CHANNEL - add a private channel id
-- [x] TUTORIAL- a tutorial video link for Downloading files
-- [x] SHORTENER_API - add your first shortner api
-- [x] SHORTENER_WEBSITE - add your first shortner website url
-- [x] SHORTENER_API2 - add your second shortner api
-- [x] SHORTENER_WEBSITE2 - add your second shortner website url
-- [x] SHORTENER_API3 - add your third shortner api
-- [x] SHORTENER_WEBSITE3 - add your third shortner website url
-- [x] UPI_PAY_LOGS - add your telegram channel id to get payment screenshots</b>
+- [x] LOG_CHANNEL - add a private channel id
 ```
 </details>
 
@@ -154,7 +143,6 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄʏ ʀᴏʙ�
 </h3>
 
 - <b>[sᴜʙᴀʀᴜ](https://github.com/sewxiy)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/Codeflix-Bots/AutoFilter) </b>
-- <b>[ʙɪssᴀʟ](https://t.me/Bisal_Files)  ➻  [ᴀʟʟ ᴄʀᴇᴅɪᴛ](https://t.me/Bisal_Files) </b>
  
 <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/Codeflix-Bots/AutoFilter/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʟᴜᴄʏ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
