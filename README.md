@@ -5,7 +5,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://graph.org/file/6126c635b91aa6bd8a4b3.jpg">
+  <img src="https://graph.org/file/a7122b6c65dad02b7008f.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄʏ ʀᴏʙᴏᴛ](https://t.me/lucy_filter_bot)**_
