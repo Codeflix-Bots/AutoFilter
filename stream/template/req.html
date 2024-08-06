@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="https://i.ibb.co/M8S0Zzj/live-streaming.png" itemprop="thumbnailUrl">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>%s</title>
+    <link rel="stylesheet" type='text/css' href="https://drive----google.com/uc?export=view&id=1pVLG4gZy7jdow3sO-wFS06aP_A9QX0O6">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.9/plyr.css" />
+    
+        									 
+<style>
+      body{
+        font-family: sans-serif;
+        background-color: #2c3e50; /* Dark background color */
+        }
+
+      .copyright {
+        margin-top: 300px;
+        padding: 10px;
+        color: black;
+        text-align: center;
+        font-size: 15px;
+        }
+
+      marquee{
+      font-size: 20px;
+      font-weight: 700;
+      color: black;
+      font-family: sans-serif;
+      }
+    </style>
+</head>
+
+<body>
+	
+    <header>
+        <marquee bgcolor="#2c3e50"
+        <div class="toogle"></div>
+        <div id="file-name">
+            %s
+        </div>
+    </marquee>
+    </header>
+
+    <div class="container">
+        <tag src="%s" class="player"></tag>
+    </div>
+
+    <footer>
+	    <center><h4>Video playback issue? Your browser may not support the codec. Please download and watch instead.</h4></center>
+    </footer>
+
+    <div class="copyright">
+        &copy; PrimeHub™
+    </div>
+
+    <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
+	<script>
+        const controls = [
+              'play-large',
+              'rewind',
+              'play', 
+              'fast-forward', 
+              'progress', 
+              'current-time',
+              'duration',
+              'mute',
+              'volume',
+              'captions',
+              'settings',
+              'pip',
+              'airplay',
+              'download',
+              'fullscreen'
+            ];
+        document.addEventListener('DOMContentLoaded', () => {
+            const player = Plyr.setup('.player', { controls });
+        });
+
+        const body = document.querySelector('body');
+        const footer = document.querySelector('footer');
+        const toogle = document.querySelector('.toogle');
+    </script>
+</body>
+</html>
