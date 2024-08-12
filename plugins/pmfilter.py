@@ -6,6 +6,7 @@ import ast
 import math
 import random
 import pytz
+from database.refer import referdb
 from datetime import datetime, timedelta, date, time
 lock = asyncio.Lock()
 from database.users_chats_db import db
@@ -124,6 +125,26 @@ async def pm_text(bot, message):
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
     )
+
+@Client.on_callback_query(filters.regex(r"^reffff"))
+async def refercall(bot, query):
+    btn = [[
+        InlineKeyboardButton('• sʜᴀʀᴇ ʟɪɴᴋ', url=f'https://telegram.me/share/url?url=https://t.me/{bot.me.username}?start=reff_{query.from_user.id}&text=Hello%21%20Experience%20a%20bot%20that%20offers%20a%20vast%20library%20of%20unlimited%20movies%20and%20series.%20%F0%9F%98%83'),
+        InlineKeyboardButton(f'⏳ {referdb.get_refer_points(query.from_user.id)}', callback_data='ref_point'),
+        InlineKeyboardButton('ʙᴀᴄᴋ •', callback_data='start')
+    ]]
+    reply_markup = InlineKeyboardMarkup(btn)
+    await bot.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/1a2e64aee3d4d10edd930.jpg")
+        )
+    await query.message.edit_text(
+        text=f'<b>» ʏᴏᴜʀ ʀᴇғᴇʀ ʟɪɴᴋ:\n\nhttps://t.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nsʜᴀʀᴇ ᴛʜɪs ʟɪɴᴋ ᴡɪᴛʜ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ᴇᴀᴄʜ ᴛɪᴍᴇ ᴛʜᴇʏ ᴊᴏɪɴ,  ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ 𝟷𝟶 ʀᴇғғᴇʀᴀʟ ᴘᴏɪɴᴛs ᴀɴᴅ ᴀғᴛᴇʀ 𝟷𝟶𝟶 ᴘᴏɪɴᴛs ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ 𝟷 ᴍᴏɴᴛʜ ᴘʀᴇᴍɪᴜᴍ sᴜʙsᴄʀɪᴘᴛɪᴏɴ.</b>',
+        reply_markup=reply_markup,
+        parse_mode=enums.ParseMode.HTML
+        )
+    await query.answer()
 
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
@@ -1944,7 +1965,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• ᴅɪᴀᴍᴏɴᴅ •', callback_data='diamond'),
             InlineKeyboardButton('• ᴏᴛʜᴇʀ •', callback_data='other')
         ],[ 
-            InlineKeyboardButton('• ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ •', callback_data='subscription')
+            InlineKeyboardButton('• ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ •', callback_data='reffff')
         ],[         
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
