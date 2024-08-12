@@ -1366,6 +1366,21 @@ async def removetutorial(bot, message):
     await save_group_settings(grpid, 'is_tutorial', False)
     await reply.edit_text(f"<b>ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʀᴇᴍᴏᴠᴇᴅ ᴛᴜᴛᴏʀɪᴀʟ ʟɪɴᴋ ✅</b>")
 
+@Client.on_message(filters.command("refer"))
+async def refer(bot, message):
+    btn = [[
+        InlineKeyboardButton('• sʜᴀʀᴇ ʟɪɴᴋ', url=f'https://telegram.me/share/url?url=https://t.me/{bot.me.username}?start=reff_{message.from_user.id}&text=Hᴇʟʟᴏ%21%20Exᴘᴇʀɪᴇɴᴄᴇ%20ᴀ%20Bᴏᴛ%20Tʜᴀᴛ%20Oғғᴇʀs%20a%20ᴠᴀsᴛ%20Lɪʙʀᴀʀʏ%20ᴏғ%20Uɴʟɪᴍᴛᴇᴅ%20Mᴏᴠɪᴇs%20and%20Sᴇʀɪᴇs.%20%F0%9F%98%83'),
+        InlineKeyboardButton(f'⏳ {referdb.get_refer_points(message.from_user.id)}', callback_data='ref_point'),
+        InlineKeyboardButton('ᴄʟᴏsᴇ •', callback_data='close_data')
+    ]]  
+    reply_markup = InlineKeyboardMarkup(btn)
+    await message.reply_photo(
+            photo=random.choice(REFER_PICS),
+            caption=f'<b>» ʜᴇʏ ʙʀᴏ/sɪs {message.from_user.mention},\n\nHᴇʀᴇ ɪꜱ ʏᴏᴜʀ ʀᴇғғᴇʀᴀʟ ʟɪɴᴋ:\nhttps://t.me/{bot.me.username}?start=reff_{message.from_user.id}\n\nSʜᴀʀᴇ ᴛʜɪs ʟɪɴᴋ ᴡɪᴛʜ ʏᴏᴜʀ ғʀɪᴇɴᴅ, Eᴀᴄʜ ᴛɪᴍᴇ ᴛʜᴇʏ ᴊᴏɪɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ 10 ʀᴇғᴇʀᴀʟ ᴘᴏɪɴᴛ ᴀɴᴅ ᴀғᴛᴇʀ 100 ᴘᴏɪɴᴛs ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ 1 ᴍᴏɴᴛʜ ᴘʀᴇᴍɪᴜᴍ sᴜʙsᴄʀɪᴘᴛɪᴏɴ.</b>',
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+    )
+
 @Client.on_message(filters.command("restart") & filters.user(ADMINS))
 async def stop_button(bot, message):
     msg = await bot.send_message(text="<b><i>ʙᴏᴛ ɪꜱ ʀᴇꜱᴛᴀʀᴛɪɴɢ</i></b>", chat_id=message.chat.id)       
