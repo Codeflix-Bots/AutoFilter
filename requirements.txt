@@ -111,3 +111,4 @@ uvloop
 lexica-api
 MukeshAPI
 httpx
+HorridAPI
