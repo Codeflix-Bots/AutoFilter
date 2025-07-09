@@ -194,7 +194,7 @@ class Database:
         return self.grp.find({})
 
     async def get_db_size(self):
-        return (await self.db.command("dbstats"))['dataSize']
+        return (await self.db.command("dbstats"))['dataSize']+(await self.db.command("dbstats"))['indexSize']
 
     async def get_user(self, user_id):
         user_data = await self.users.find_one({"id": user_id})
